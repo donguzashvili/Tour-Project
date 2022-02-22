@@ -1,0 +1,38 @@
+{
+  "name": "notours",
+  "version": "1.0.0",
+  "description": "Learning node, express mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=development nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ndb server.js"
+  },
+  "author": "shota donguzashvili",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "node": "^17.4.0",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0"
+  },
+  "engines": {
+    "node": ">=10.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1"
+  }
+}
